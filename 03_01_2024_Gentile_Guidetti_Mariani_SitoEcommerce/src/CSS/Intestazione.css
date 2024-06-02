@@ -1,0 +1,75 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.stickyIntestazione {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.stickyPadding {
+    height: 111px;
+}
+
+#intestazione #rigaIntestazione1,
+#intestazione #rigaIntestazione2 {
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    position: relative;
+
+    color: white;
+}
+
+#intestazione img {
+    height: 100%;
+}
+
+#intestazione {
+    z-index: 1;
+
+    height: 3cm;
+}
+
+#rigaIntestazione1 {
+    height: 2cm;
+
+    background-color: rgba(80, 208, 255);
+}
+
+#rigaIntestazione2 {
+    height: 1cm;
+
+    background-color: rgb(240, 158, 65);
+}
+
+#intestazione a,
+#intestazione span {
+    color: white;
+}
+
+.colonnaIntestazione {
+    width: fit-content;
+    float: inline-start;
+
+    padding: 3mm;
+}
+
+#carrello {
+    transform: translateY(50%);
+}
+
+.colonnaIntestazione h1,
+.colonnaIntestazione a,
+.colonnaIntestazione span {
+    align-items: center;
+    height: 100%;
+}

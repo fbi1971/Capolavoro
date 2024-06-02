@@ -1,0 +1,49 @@
+#finePagina {
+    height: fit-content;
+
+    background-color: rgba(80, 208, 255);
+
+    color: white;
+
+    border-bottom: 0cm;
+    border-right: 0cm;
+    border-left: 0cm;
+    border-top: 1mm;
+    border-color: rgb(0, 81, 255);
+    border-style: solid;
+}
+
+#finePagina a {
+    color: white;
+}
+
+#paddingFooter {
+    width: 100%;
+    height: 2cm;
+}
+
+#logoNapoli {
+    height: 0cm;
+
+    display: flex;
+
+    justify-content: center;
+
+    position: relative;
+}
+
+#logoNapoli img {
+    transform: translateY(-50%);
+    height: 3cm;
+}
+
+#finePagina table {
+    width: 100%;
+    height: 4cm;
+
+    font-size: larger;
+}
+
+#finePagina td {
+    width: 25%;
+}

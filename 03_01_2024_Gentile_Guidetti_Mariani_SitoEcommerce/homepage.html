@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Napoli Store</title>
+
+    <link rel="stylesheet" href="src\CSS\Intestazione.css">
+    <link rel="stylesheet" href="src\CSS\Footer.css">
+    <link rel="stylesheet" href="src\CSS\SlideShow.css">
+
+    <script src="src\JS\Intestazione.js" async></script>
+
+    <link rel="shortcut icon" href="src\Immagini\LogoNapoli.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="intestazione">
+        <div id="rigaIntestazione1">
+            <div class="colonnaIntestazione">
+                <a href="homepage.html"><img src="src\Immagini\HomePage\Logo.jpg"></a>
+            </div>
+            <div class="colonnaIntestazione">
+                <h1> Benvenuto nel Napoli store </h1>
+            </div>
+            <div class="colonnaIntestazione">
+                <img src="src\Immagini\HomePage\Carrello.png"> <span>Carrello | 0,00€</span>
+            </div>
+        </div>
+
+        <div id="rigaIntestazione2">
+            <div class="colonnaIntestazione">
+                <a href="primoCollegamento.html">Kit da gara</a>
+            </div>
+
+            <div class="colonnaIntestazione">
+                <a href="secondoCollegamento.html">Altri abbigliamenti</a>
+            </div>
+
+            <div class="colonnaIntestazione">
+                <a href="terzoColloegamento.html">Accessori</a>
+            </div>
+
+            <div class="colonnaIntestazione">
+            </div>
+        </div>
+    </div>
+    <div id="paddingIntestazione"></div>
+
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 8</div>
+            <a href="homepage.html"> <img src="src\Immagini\HomePage\SlideShow\01Tutti.jpg" style="width:100%"></a>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 8</div>
+            <a href="terzoColloegamento.html"><img src="src\Immagini\HomePage\SlideShow\02.jpg" style="width:100%"></a>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 8</div>
+            <a href="homepage.html"> <img src="src\Immagini\HomePage\SlideShow\03Eu.jpg" style="width:100%"></a>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 8</div>
+            <img src="src\Immagini\HomePage\SlideShow\04.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 8</div>
+            <a href="primoCollegamento.html"><img src="src\Immagini\HomePage\SlideShow\05Dani.jpg" style="width:100%">
+            </a>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 8</div>
+            <img src="src\Immagini\HomePage\SlideShow\06.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 8</div>
+            <a href="secondoCollegamento.html"><img src="src\Immagini\HomePage\SlideShow\07Ema.jpg"
+                    style="width:100%"></a>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 8</div>
+            <img src="src\Immagini\HomePage\SlideShow\08.png" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- The dots/circles -->
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <video width="70%" height="40%" style="display: block; margin-left: auto; margin-right: auto;"
+            controls="controls" controlslist="nodownload" poster="src\Immagini\HomePage\preview video.png">
+            <source src="src\Immagini\HomePage\maglia-prematch.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div id="paddingFooter"></div>
+    <footer id="finePagina">
+        <div id="logoNapoli">
+            <img src="src\Immagini\LogoNapoli.png">
+        </div>
+
+        <table>
+            <tr>
+                <td>
+                    <h3>Informazioni</h3>
+                    <ul>
+                        <li>
+                            Termini e condizioni d'uso
+                        </li>
+                        <li>
+                            Cookie Policy
+                        </li>
+                        <li>
+                            Privacy Policy
+                        </li>
+                        <li>
+                            Servizio clienti
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Categorie</h3>
+                    <ul>
+                        <li>
+                            <a href="primoCollegamento.html">Kit da gara</a>
+                        </li>
+                        <li>
+                            <a href="secondoCollegamento.html">Altri abbigliamenti</a>
+                        </li>
+                        <li>
+                            <a href="terzoColloegamento.html">Accessori</a>
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Il mio Account </h3>
+                    <ul>
+                        <li>
+                            I miei ordini
+                        </li>
+                        <li>
+                            I miei indirizzi
+                        </li>
+                        <li>
+                            Le mie informazioni personali
+                        </li>
+                    </ul>
+                </td>
+                <td>
+                    <h3>Pagamenti</h3>
+                    <img src="src\Immagini\HomePage\payment_1.png">
+                    <h3>Spedizioni</h3>
+                    <img src="src\Immagini\HomePage\gls_footer_2_new.png">
+                </td>
+            </tr>
+        </table>
+
+        <div id="newsletter">
+            <div>
+                <h2>Iscriviti alla newsletter <span> per essere sempre aggiornato su novità e offerte del nostro
+                        Store</span>
+                </h2>
+            </div>
+            <div>
+                <label>Nome
+                    <input type="text" name="Nome">
+                </label>
+
+                <label>Cognome
+                    <input type="text" name="Cognome">
+                </label>
+
+                <label>Mail
+                    <input type="email" name="Mail">
+                </label>
+                <button type="submit" name="submitNewsletter">Iscriviti
+                </button>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        © ITIS Mattei , Via Martiri Cefalonia , 46 20097 San Donato Milanese Italia - Email:
+        emanule.gentile@itismattei.net , eugenio.guidetti@itismattei.net , daniele.mariani@itismattei.net
+        <br>
+        <br>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i = 0;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+    </script>
+
+
+</body>
+
+</html>
